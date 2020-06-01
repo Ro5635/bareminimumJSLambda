@@ -30,6 +30,6 @@ Resources:
         Api1:
           Type: Api
           Properties:
-            RestApiId: "someExampleAPI"
+            RestApiId: !Ref someExampleAPI
             Path: /
             Method: get
